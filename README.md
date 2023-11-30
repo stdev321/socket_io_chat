@@ -51,3 +51,12 @@ cd frontend
 npm install
 npm start
 ``````
+### Simulation/Running 
+Open frontend in atleast two seprate windows to test the full functionality of the app
+to simulate the input disabled logic closed all the browser windows except one
+To simulate the connection/re-connection/error logic close the running websocket server
+To simulate the message-flooding(for performance test) navigate to the backend folder & run following command:
+(first uncomment the setinterval function)
+```
+node client.js
+```

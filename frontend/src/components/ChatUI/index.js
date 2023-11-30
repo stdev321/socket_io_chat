@@ -19,7 +19,7 @@ const ChatUI = ({ user }) => {
     if (!user) return;
 
     // Connect to the Socket.IO server
-    socketRef.current = io("http://localhost:3001", {
+    socketRef.current = io("http://localhost:4000", {
       reconnection: true,
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,

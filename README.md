@@ -16,9 +16,9 @@ Added reconnection logic to attempt reconnecting if the WebSocket connection is 
 
 ### Backend (NodeJS+Socket.io):
 
-- For Websocket integration used Socket.io
-- Security and validation (Prevented XSS by Sanitizing the incoming messages )
-- Handled reconnection logic & error in connection
+- **Websocket integration** For Websocket integration used Socket.io
+- **Security and validation** (Prevented XSS by Sanitizing the incoming messages )
+- **Connection/Re-connection Handling** Handled reconnection logic & error in connection
 
 ### Code Quality:
 

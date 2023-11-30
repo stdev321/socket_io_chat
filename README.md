@@ -44,7 +44,7 @@ To run backend
 ```
 cd backend
 npm install
-npm run
+node index.js
 ``````
 To run frontend
 ```
@@ -61,3 +61,7 @@ npm start
 ```
 node client.js
 ```
+
+### Loom Video
+
+- https://www.loom.com/share/60656d21487a44588bbe2e443bd2f1fa

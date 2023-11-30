@@ -9,9 +9,9 @@ This is a Websocket based chat application with a React frontend and Node.js/Soc
 - **Group Chat** Implemented Group Chat functionality. 
 - **State Management** functionality to send a message from the input field to the server via WebSockets when a user submits it.
 displayed incoming messages from the server in the message display area.
- - **Error handling and reconnection** Implemented error handling for WebSocket communication
+- **Error handling and reconnection** Implemented error handling for WebSocket communication
 Added reconnection logic to attempt reconnecting if the WebSocket connection is lost.
-  - **Performance** Efficiently updating the DOM whenever new messages come without causing re-renders of the entire message list
+- **Performance** Efficiently updating the DOM whenever new messages come without causing re-renders of the entire message list
  
 
 ### Backend (NodeJS+Socket.io):

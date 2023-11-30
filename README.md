@@ -36,9 +36,9 @@ Added reconnection logic to attempt reconnecting if the WebSocket connection is 
 
 ## How to Run the App:
 
-Clone the library:
+- Clone the library
 - The front-end code is in "frontend" folder & backend code is in "backend"
-- Change the default websocket server url in frontend/src/components/ChatUI/index.js (default: http://localhost:3000)
+- Change the default websocket server url in frontend/src/components/ChatUI/index.js and in server/client.js(if you want to test the message flooding) (default: http://localhost:3001)
 
 To run backend
 ```

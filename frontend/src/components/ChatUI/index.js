@@ -19,7 +19,7 @@ const ChatUI = ({ user }) => {
     if (!user) return;
 
     // Connect to the Socket.IO server
-    socketRef.current = io("https://30eb-122-160-98-118.ngrok-free.app", {
+    socketRef.current = io("http://localhost:3001", {
       reconnection: true,
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,

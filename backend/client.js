@@ -1,6 +1,6 @@
 const { io } = require("socket.io-client");
 
-const socket = io("https://30eb-122-160-98-118.ngrok-free.app");
+const socket = io("http://localhost:3001");
 
 // server-side
 socket.on("connection", (socket) => {

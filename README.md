@@ -23,7 +23,7 @@ Added reconnection logic to attempt reconnecting if the WebSocket connection is 
 ### Code Quality:
 
 - Used best practices in improving the code quality in both frontent & backend.
-- Kept the code clean , minimal & documented each methods to read properly
+- Kept the code clean , minimal & used proper commenting to improve code readiblity
 
 
 ### Technologies Used:

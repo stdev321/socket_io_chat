@@ -37,7 +37,8 @@ Added reconnection logic to attempt reconnecting if the WebSocket connection is 
 ## How to Run the App:
 
 Clone the library:
-The front-end code is in "frontend" folder & backend code is in "backend"
+- The front-end code is in "frontend" folder & backend code is in "backend"
+- Change the default websocket server url in frontend/src/components/ChatUI/index.js (default: http://localhost:3000)
 
 To run backend
 ```
@@ -56,7 +57,7 @@ npm start
 - To simulate the input disabled logic closed all the browser windows except one
 - To simulate the connection/re-connection/error logic close the running websocket server
 - To simulate the message-flooding(for performance test) navigate to the backend folder & run following command:
-    (first uncomment the setinterval function)
+    (first uncomment the setinterval function in client.js file and modify the websocket server URL)
 ```
 node client.js
 ```

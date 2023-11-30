@@ -37,8 +37,9 @@ Added reconnection logic to attempt reconnecting if the WebSocket connection is 
 ## How to Run the App:
 
 Clone the library:
-:> The front-end code is in "frontend" folder & backend code is in "backend"
+The front-end code is in "frontend" folder & backend code is in "backend"
 
+To run backend
 ```
 cd backend
 npm install
